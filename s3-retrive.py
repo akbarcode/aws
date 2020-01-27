@@ -1,5 +1,5 @@
 import boto3
-import json
+# import json
 s3 = boto3.client('s3')
 response = s3.list_buckets()
 # print response
